@@ -1,8 +1,13 @@
 language: ruby
 
+gemfile:
+  - gemfiles/carrierwave_0.10.gemfile
+  - gemfiles/carrierwave_head.gemfile
+
 rvm:
- - 1.9.3
  - 2.0.0
+ - 2.2.0
+ - rbx-2
  - ruby-head
 
 matrix:
